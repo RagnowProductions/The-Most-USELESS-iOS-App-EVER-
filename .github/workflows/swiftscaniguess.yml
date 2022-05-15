@@ -46,7 +46,7 @@ jobs:
       # Run open source static analysis tools
     - name: Run SwiftScan
       uses: github/ossar-action@v1
-      id: ossar
+      id: swiftscan
 
       # Upload results to the Security tab
     - name: Upload SwiftScan results
